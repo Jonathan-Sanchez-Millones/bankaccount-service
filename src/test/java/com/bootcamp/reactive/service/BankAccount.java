@@ -26,7 +26,7 @@ import com.bootcamp.reactive.service.BankAccountService;
 import reactor.core.publisher.Mono;
 
 @RunWith(SpringRunner.class)
-@WebFluxTest(BankAccountController.class)
+@WebFluxTest(BankAccountService.class)
 public class BankAccount {
 	
 	@MockBean
