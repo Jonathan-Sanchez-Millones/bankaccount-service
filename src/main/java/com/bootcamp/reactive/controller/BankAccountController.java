@@ -19,7 +19,6 @@ import com.bootcamp.reactive.entity.BankAccountCorriente;
 import com.bootcamp.reactive.entity.BankAccountPlazoFijo;
 import com.bootcamp.reactive.service.BankAccountService;
 
-import reactor.core.publisher.Flux;
 import reactor.core.publisher.Mono;
 
 @RestController
